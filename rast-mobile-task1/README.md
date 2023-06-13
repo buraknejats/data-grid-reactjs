@@ -34,7 +34,7 @@ Bu proje, React.js ve Devexpress Data Grid kütüphanesi kullanılarak geliştir
 Proje bağımlılıklarını yükledikten sonra, aşağıdaki komutları kullanarak projeyi başlatabilirsiniz:npm start
 
 
-Proje çalıştırıldığında, tarayıcınızda projenin çalışan bir örneği görüntülenecektir. Kullanıcılar, sosyal medya bilgilerini ekleyebilir, düzenleyebilir ve filtreleyebilirler.
+Proje çalıştırıldığında, tarayıcınızda projenin çalışan bir örneği görüntülenecektir. Kullanıcılar, sosyal medya bilgilerini ekleyebilir filtreleyebilir ve sayfa satırını düzenleyebilirler.
 
 ## Ekran Görüntüleri
 
