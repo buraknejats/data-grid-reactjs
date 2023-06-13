@@ -1,0 +1,233 @@
+  .addAccountButton{
+    background-color: #744BFC;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+  }
+.add-account{
+    display: flex;
+    justify-content: flex-end;
+}
+.addAccountButton{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    width: 175px;
+    height: 42px;
+    text-align: center;
+    border-radius: 39px;   
+}
+.table-Container{
+    background-color: #EFF2FF;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.wrapper {
+    max-width: 380px;
+    height: 42px;
+    background-color: #F1F4FF;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+  }
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+  }
+  #searchQueryInput {
+    width: 380px;
+    height: 42px;
+    background: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    margin-top: 65px;
+    font-size: 14px; 
+    margin-left: 75px;
+}
+ ::placeholder {
+    padding: 29px;
+} 
+  #searchQuerySubmit {
+    width: 45px;
+    height: 42px;
+    margin-left: -2.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #744BFC;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 65px;  
+  }
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 600px) {
+
+    #searchQueryInput{
+      width: 140px;
+    height: 30px;
+    margin-left:20px;
+
+    }
+    .addAccountButton{
+      width: 70px;
+      height: 30px;
+      margin-right: 10px !important;
+    }
+    #searchQuerySubmit{
+      height: 30px;
+      margin-left: -12px;
+    }
+    .filterButton{
+      margin-left: 15px;
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .filterIcon{
+      margin-left:7px;
+      margin-top: 11px;
+      width: 16px;
+      height: 11px;
+    }
+  }
+  @media (min-width:601px)and (max-width:800px){
+    #searchQueryInput{
+      width: 300px;
+    height: 30px;
+    margin-left:20px;
+    }
+    #searchQuerySubmit{
+      height: 30px;
+      margin-left: -12px;
+    }
+    .addAccountButton{
+      width: 70px;
+      height: 30px;
+      margin-right: 10px !important;
+    }
+    .addAccountButton{
+      width: 130px;
+      height: 30px;
+      margin-right: 10px !important;
+    }
+    .filterButton{
+      margin-left: 15px;
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .filterIcon{
+      margin-left: 8px;
+    margin-top: 10px;
+    width: 16px;
+    height: 11px;
+
+    }
+  }
+  svg{
+    width:24px;
+    height:24px;
+    color: #fff;
+    fill:#744BFC;
+  }
+  .filterButton{
+    border-radius: 100%;
+    background-color: #ffff;
+    width: 49px;
+    height: 42px;
+    margin-top: 65px;
+    margin-left: 10px;
+  }
+ 
+.whiteRow {
+    background-color: rgb(161, 21, 21) !important;
+  }
+.blueRow  {
+    background-color: blue !important;
+  }
+  .textShow{
+    color: red;
+  }
+  @media (min-width: 1300px){
+    #dataGrid{
+      margin-left: 75px;
+      margin-right: 75px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.52px;
+      max-width: 1320px;
+      border: 1px solid #EAEAEA;
+      border-radius: 8px;
+    }
+    .table-Container{
+      max-width: 1320px;
+      margin: auto;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+    .filterIcon{
+      margin-left: 17px;
+      margin-top: 18px;
+      width: 16px;
+      height: 11px;
+    }
+    }
+    .page-size-button{ width: 90px;
+      height: 37px;
+      border-radius: 39px;
+      background-color: white;
+      border: 1px solid #CFC0FF;
+      margin-top: -17px;
+      z-index: 1;
+      position: relative;
+      margin-left: 142px; 
+}
+
+   .insideOfSizeButton{
+    padding: 10px;
+   }
+    .arrow1{
+    position: absolute;
+    width: 7px !important;
+    height: 9.97px !important;
+    margin-left: 10px;
+    
+}
+  .arrow2{
+    margin-left: 10px;
+    width: 7px !important;
+    height: 9.97px !important;
+ }
+ @media (max-width:1300px){
+  .page-size-button{    
+    margin-top: -25px;
+
+    margin-left: 10px; 
+  }
+ }
+ .dx-datagrid-pager {
+  margin-bottom: -60px;
+ }
+ .dx-pager .dx-pages .dx-navigate-button.dx-button-disable {
+color: #744BFC;
+ }
+ .showText{
+  margin-left: 84px;
+ }
+ 
+ @media (min-width:801px)and (max-width:1299px){
+  .filterIcon{
+    margin-left: 17px;
+    margin-top: 18px;
+    width: 16px;
+    height: 11px;
+  }
+ }

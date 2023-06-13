@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  h3{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 21px !important;
+    font-family: 'Poppins, sans-serif'!important;
+  }
+  .logo {
+    width: 124px;
+    height: 36.7px;
+  }
+  .logo-container{
+    margin-left: 3%;
+  }
+  .title1 {
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: 'Poppins, sans-serif';
+    cursor: pointer;
+    color: #000000 !important;
+    width: 81px;
+    height: 21px;
+  }
+  .title2 {
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: 'Poppins, sans-serif';
+    cursor: pointer;
+    color: #000000 !important;
+    width: 164px;
+    height: 21px;
+  }
+  .title3 {
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: 'Poppins, sans-serif';
+    color: #000000 !important;
+    height: 21px;
+  }
+  .title4{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: 'Poppins, sans-serif';
+    cursor: pointer;
+    color: #000000 !important;
+    width: 107px;
+    height: 21px;
+  }
+  .socialMediaIcon{
+    background-color: #744BFC !important;
+    width: 18px;
+    border-radius: 1.94px;
+  }
+  .navbarBrand{
+    position: relative;
+    right: -104px;
+    margin-top: 33px;
+  }
+  @media only screen and (min-width: 990px) {
+    .socialMedia-container {
+      position: absolute;
+      right: 111px;
+      margin-top: 43px; 
+      margin-right: -35px;
+     }
+     .titleContainer{
+      position: absolute;
+      left: 407px;
+      gap: 40px;
+      margin-top: 23px;
+    }
+  }
+  @media (min-width:991px)and (max-width:1300px){
+.titleContainer{
+    margin-left: -159px;
+    gap: 10px;
+} 
+  }
+  @media (min-width: 1400px){
+.navbar {
+    max-width: 1320px;
+    margin: auto;
+  }
+}
+@media(max-width:990px){
+  .socialMedia-container{
+    flex-flow: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 104px;
+  }
+  .titleContainer{
+    margin-left: 104px;
+  }
+}
